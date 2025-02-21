@@ -3,7 +3,7 @@ from data import get_data, inspect_data, split_data
 from functions import *
 
 data = get_data()
-# inspect_data(data)
+inspect_data(data)
 
 train_data, test_data = split_data(data)
 
